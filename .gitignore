@@ -1,0 +1,8 @@
+*.log
+__pycache__
+.uuid
+.HA_VERSION
+home-assistant_v2.db
+.cloud
+.storage
+deps
