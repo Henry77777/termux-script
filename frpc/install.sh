@@ -1,4 +1,4 @@
-mkdir ~/bin
-cp -r * ~/bin/
-cd ~/bin/
+basepath=$(cd `dirname $0`; pwd)
+ln -s $basepath ~/
+cd ~/frpc/
 ./frpc
