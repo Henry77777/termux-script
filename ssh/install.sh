@@ -1,3 +1,3 @@
 apt install openssh
-cp -r ./.ssh ~/.ssh
+# 复制公钥到 ~/.ssh/authorized_keys
 sshd
