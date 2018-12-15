@@ -15,7 +15,7 @@ homeassistant:
   packages: !include_dir_named packages
 
 # Show links to resources in log and frontend
-introduction:
+#introduction:
 
 # Enables the frontend
 frontend:
@@ -88,9 +88,9 @@ tts:
     pitch: 5
     person: 0
     
-media_player :
-  - platform: vlc
-    name: vlc
+# media_player :
+#   - platform: vlc
+#     name: vlc
     
 # Cloud
 cloud:
